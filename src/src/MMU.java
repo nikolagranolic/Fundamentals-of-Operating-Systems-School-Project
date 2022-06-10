@@ -265,14 +265,14 @@ public class MMU {
 		for(int k = 0; k < array.length; k++) {
 			references.add(array[k]);
 		}
-//		for(int i = 1, temp = 0; i <= numberOfReferences; ) {
-//			System.out.println("Unesite " + i + ". referencu:");
-//			temp = scan.nextInt();
-//			if(temp > 0) {
-//				references.add(temp);
-//				i++;
-//			}
-//		}
+		// for(int i = 1, temp = 0; i <= numberOfReferences; ) {
+		// 	System.out.println("Unesite " + i + ". referencu:");
+		// 	temp = scan.nextInt();
+		// 	if(temp > 0) {
+		// 		references.add(temp);
+		// 		i++;
+		// 	}
+		// }
 		scan.nextLine();
 		MMU mmu = new MMU(numberOfReferences, numberOfFrames, references);
 		System.out.println("Odaberite jedan ili vise algoritama koji ce ucestvovati u simulaciji (ukoliko birate vise odvojite ih razmacima):");
